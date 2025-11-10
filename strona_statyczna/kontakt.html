@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zespół</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="home.html">Strona Główna</a> </li>
+                <li><a href="galeria.html">Dyskografia</a> </li>
+                <li><a href="kontakt.html">Zespół</a> </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <article class="band_layout" style="justify-content: center;width: 100%;">
+        <div class="band_box">
+            <h1>Steve Harris</h1>
+            <h2>basista i założyciel</h2>
+            <p>Steve Harris założył Iron Maiden w 1975 roku i od tego czasu kieruje muzycznym kierunkiem zespołu. Jego charakterystyczne linie basu tworzą fundament brzmienia grupy, a on sam jest głównym autorem większości kompozycji.</p>
+        </div>
+        <div class="band_box">
+            <h1>Bruce Dickinson </h1>
+            <h2>wokal</h2>
+            <p>Bruce Dickinson dołączył do zespołu w 1981 roku i od razu stał się symbolem potężnego, melodyjnego wokalu. Po krótkiej przerwie w latach 90. powrócił, przywracając klasyczne brzmienie Iron Maiden.</p>
+        </div>
+        <div class="band_box">
+            <h1>Dave Murray</h1>
+            <h2>gitara</h2>
+            <p>Dave Murray jest gitarzystą zespołu od samego początku i odpowiada za płynne, melodyjne solówki. Jego styl łączy technikę z ekspresją, nadając Iron Maiden charakterystyczny gitarowy klimat.</p>
+        </div>
+        <div class="band_box">
+            <h1>Adrian Smith</h1>
+            <h2>gitara</h2>
+            <p> Adrian Smith dołączył do zespołu w 1980 roku, wnosząc bardziej melodyjne partie gitarowe. Jest autorem wielu hitowych riffów i solówek, które współtworzą niepowtarzalne brzmienie zespołu.</p>
+        </div>
+        <div class="band_box">
+            <h1>Janick Gers</h1>
+            <h2>gitara</h2>
+            <p>Janick Gers dołączył do Iron Maiden w 1990 roku i wniósł do zespołu ekspresyjną, teatralną dynamikę. Jego improwizowany styl i energia na scenie uzupełniają harmonię gitar z Murrayem i Smithem.</p>
+        </div>
+        <div class="band_box">
+            <h1>Nicko McBrain</h1>
+            <h2>perkusja</h2>
+            <p>Nicko McBrain gra na perkusji w zespole od 1982 roku i tworzy solidny rytmiczny fundament. Jego dynamiczna i techniczna gra urozmaica koncerty, czyniąc je pełnymi energii i napięcia.</p>
+        </div>
+
+
+    <section class="contact-box band_box" style="align-content: flex-end;width: 100%;">
+        <h2>Napisz do nas</h2>
+        <form action="#" method="post">
+            <label for="name">Imię i nazwisko:</label>
+            <input type="text" id="name" name="name" placeholder="Imię i nazwisko" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <label for="topic">Temat wiadomości:</label>
+            <select id="topic" name="topic" required>
+                <option value="">Wybierz temat</option>
+                <option value="pytanie">Pytanie</option>
+                <option value="opinia">Opinia</option>
+                <option value="propozycja">Propozycja</option>
+                <option value="inne">Inne</option>
+            </select>
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" placeholder="Wiadomość..." rows="6" required></textarea>
+
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+    </article>
+    <footer class="sign">Weronika Latos  </footer>
+</body>
+
+
+
+</html>
